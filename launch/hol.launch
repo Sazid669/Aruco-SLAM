@@ -1,0 +1,7 @@
+<launch>
+    <param name="~frame_id" type="string" value="world_ned" />
+    <include file="$(find turtlebot_simulation)/launch/turtlebot_hol_circuit2_aruco.launch" />
+    <node pkg="hands_on_localization" type="addNewFeature_node.py" name="Main_node"/>
+    <node pkg="hands_on_localization" type="arucoObservation_node.py" name="Aruco_node"/>
+    <node name="throttle_aruco_position" pkg="topic_tools" type="throttle" args="messages /turtlebot/kobuki/aruco_position 0.5" />
+</launch>

@@ -1,0 +1,14 @@
+<package format="2">
+  <name>hands_on_localization</name>
+  <version>2.0.0</version>
+  <description>
+     hands_on_localization package for IFROS
+  </description>
+  <author></author>
+  <maintainer email="test@test.com">Roger Pi</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>rospy</depend>
+</package>
