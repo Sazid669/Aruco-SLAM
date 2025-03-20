@@ -13,6 +13,6 @@ This will run all the necessary node to run the project. To control the robot in
 ```bash 
 rosrun hands_on_localization controller.py
 ``` 
-
+Thank you!
 
 
